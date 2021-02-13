@@ -14,9 +14,9 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
         <div class="container">
-            <a href="#" class="navbar-brand h1 mb-0">Project</a>
+            <h1 class="navbar-brand mb-0 display-4">Bootstrap Project</h1>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
                 <span class="navbar-toggler-icon"></span>
@@ -62,58 +62,126 @@
 
     <hr class="mt-0">
 
-    <div id="carousel" class="container carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#carousel" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel" data-slide-to="1"></li>
-            <li data-target="#carousel" data-slide-to="2"></li>
-        </ol>
+    <div class="container mb-5">
+        <div id="carousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel" data-slide-to="1"></li>
+                <li data-target="#carousel" data-slide-to="2"></li>
+            </ol>
 
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="img/slide1.png" class="image-fluid d-block">
+            <div class="carousel-inner rounded">
+                <div class="carousel-item active">
+                    <img src="img/slide1.png" class="image-fluid d-block">
 
-                <div class="carousel-caption d-none d-md-block">
-                    <h3>Welcome!</h3>
-                    <p>
-                        Scelerisque tristique ante id interdum varius curabitur donec odio feugiat nibh, est
-                        <br>fames ullamcorper tristique augue potenti urna turpis pharetra.
-                    </p>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>Welcome!</h3>
+                        <p>
+                            Scelerisque tristique ante id interdum varius curabitur donec odio feugiat nibh, est
+                            <br>fames ullamcorper tristique augue potenti urna turpis pharetra.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="img/slide2.png" class="image-fluid d-block">
+
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>Cool and Sophisticated</h3>
+                        <p>
+                            Scelerisque tristique ante id interdum varius curabitur donec odio feugiat nibh, est
+                            <br>fames ullamcorper tristique augue potenti urna turpis pharetra.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="img/slide3.png" class="image-fluid d-block">
+
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>We Bring Innovation</h3>
+                        <p>
+                            Scelerisque tristique ante id interdum varius curabitur donec odio feugiat nibh, est
+                            <br>fames ullamcorper tristique augue potenti urna turpis pharetra.
+                        </p>
+                    </div>
                 </div>
             </div>
-            <div class="carousel-item">
-                <img src="img/slide2.png" class="image-fluid d-block">
 
-                <div class="carousel-caption d-none d-md-block">
-                    <h3>Cool and Sophisticated</h3>
-                    <p>
-                        Scelerisque tristique ante id interdum varius curabitur donec odio feugiat nibh, est
-                        <br>fames ullamcorper tristique augue potenti urna turpis pharetra.
-                    </p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="img/slide3.png" class="image-fluid d-block">
+            <a href="#carousel" class="carousel-control-prev" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                <span class="sr-only">Previous</span>
+            </a>
 
-                <div class="carousel-caption d-none d-md-block">
-                    <h3>We Bring Innovation</h3>
-                    <p>
-                        Scelerisque tristique ante id interdum varius curabitur donec odio feugiat nibh, est
-                        <br>fames ullamcorper tristique augue potenti urna turpis pharetra.
-                    </p>
-                </div>
+            <a href="#carousel" class="carousel-control-next" role="button" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-12 text-center">
+                <h1 class="display-4">Have you ever heard about dynamic decor?</h1>
+                <p>
+                    Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows,
+                    <br>and on the strength of that one show they decide if they're going to make more shows. Some pilots get picked and become television programs.
+                    <br>Some don't, become nothing. She starred in one of the ones that became nothing.
+                </p>
             </div>
         </div>
 
-        <a href="#carousel" class="carousel-control-prev" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-            <span class="sr-only">Previous</span>
-        </a>
+        <div class="row mt-4 p-3 bg-light border border-dark rounded">
+            <div class="col-3">
+                <nav id="sideNav" class="navbar navbar-light bg-light">
+                    <nav class="nav nav-pills flex-column divider">
+                        <a href="#mission" class="nav-link text-dark">Mission</a>
+                        <a href="#vision" class="nav-link text-dark">Vision</a>
+                        <a href="#values" class="nav-link text-dark">Values</a>
+                        <a href="#item4" class="nav-link text-dark">Lorem</a>
+                            <a href="#item4-1" class="nav-link ml-3 text-dark">Ipsum</a>
+                            <a href="#item4-2" class="nav-link ml-3 text-dark">Dolor</a>
+                        <a href="#item5" class="nav-link text-dark">Sit Amet</a>
+                            <a href="#item5-1" class="nav-link ml-3 text-dark">Consectetur</a>
+                            <a href="#item5-2" class="nav-link ml-3 text-dark">Adipiscing</a>
+                            <a href="#item5-3" class="nav-link ml-3 text-dark">Elit</a>
+                    </nav>
+                </nav>
+            </div>
 
-        <a href="#carousel" class="carousel-control-next" role="button" data-slide="next">
-            <span class="carousel-control-next-icon"></span>
-            <span class="sr-only">Next</span>
-        </a>
+            <div class="col-9">
+                <div data-spy="scroll" data-target="sideNav" data-offset="0" class="scrollspy">
+                    <h3 id="mission">Our Mission</h3>
+                    <p>The first mate and his Skipper too will do their very best to make the others comfortable in their tropic island nest. Michael Knight a young loner on a crusade to champion the cause of the innocent. The helpless. The powerless in a world of criminals who operate above the law. Here he comes Here comes Speed Racer. He's a demon on wheels.</p>
+
+                    <h3 id="vision">Our Vision</h3>
+                    <p>Tell them I hate them. Is the Space Pope reptilian!? Tell her she looks thin. Hello, little man. I will destroy you! I've got to find a way to escape the horrible ravages of youth. Suddenly, I'm going to the bathroom like clockwork, every three hours. And those jerks at Social Security stopped sending me checks. Now 'I' have to pay them'!</p>
+
+                    <h3 id="values">Our Values</h3>
+                    <p>That is the true genius of America - a faith in simple dreams,, an insistence on small miracles. We meet at one of those defining moments - a moment when our nation is at war, our economy is in turmoil, and the American promise has been threatened once more. We did not go by choice, we went because of necessity.</p>
+
+                    <h3 id="item4">Lorem</h3>
+                    <p>That is the true genius of America - a faith in simple dreams,, an insistence on small miracles. We meet at one of those defining moments - a moment when our nation is at war, our economy is in turmoil, and the American promise has been threatened once more. We did not go by choice, we went because of necessity.</p>
+
+                    <h5 id="item4-1">Ipsum</h5>
+                    <p>That is the true genius of America - a faith in simple dreams,, an insistence on small miracles. We meet at one of those defining moments - a moment when our nation is at war, our economy is in turmoil, and the American promise has been threatened once more. We did not go by choice, we went because of necessity.</p>
+
+                    <h5 id="item4-2">Dolor</h5>
+                    <p>That is the true genius of America - a faith in simple dreams,, an insistence on small miracles. We meet at one of those defining moments - a moment when our nation is at war, our economy is in turmoil, and the American promise has been threatened once more. We did not go by choice, we went because of necessity.</p>
+
+                    <h3 id="item5">Sit Amet</h3>
+                    <p>That is the true genius of America - a faith in simple dreams,, an insistence on small miracles. We meet at one of those defining moments - a moment when our nation is at war, our economy is in turmoil, and the American promise has been threatened once more. We did not go by choice, we went because of necessity.</p>
+
+                    <h5 id="item5-1">Consectetur</h5>
+                    <p>That is the true genius of America - a faith in simple dreams,, an insistence on small miracles. We meet at one of those defining moments - a moment when our nation is at war, our economy is in turmoil, and the American promise has been threatened once more. We did not go by choice, we went because of necessity.</p>
+
+                    <h5 id="item5-2">Adipiscing</h5>
+                    <p>That is the true genius of America - a faith in simple dreams,, an insistence on small miracles. We meet at one of those defining moments - a moment when our nation is at war, our economy is in turmoil, and the American promise has been threatened once more. We did not go by choice, we went because of necessity.</p>
+
+                    <h5 id="item5-3">Elit</h5>
+                    <p>That is the true genius of America - a faith in simple dreams,, an insistence on small miracles. We meet at one of those defining moments - a moment when our nation is at war, our economy is in turmoil, and the American promise has been threatened once more. We did not go by choice, we went because of necessity.</p>
+                </div>
+            </div>
+        </div>
     </div>
 
     <script src="node_modules/jquery/dist/jquery.js"></script>
