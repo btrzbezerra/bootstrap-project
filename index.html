@@ -61,7 +61,7 @@
     <hr class="mt-0">
 
     <div class="container mb-5">
-        <div id="carousel" class="carousel slide" data-ride="carousel">
+        <div id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000">
             <ol class="carousel-indicators">
                 <li data-target="#carousel" data-slide-to="0" class="active"></li>
                 <li data-target="#carousel" data-slide-to="1"></li>
@@ -121,44 +121,29 @@
             <div class="col-12 text-center">
                 <h1 class="display-4">Have you ever heard about dynamic decor?</h1>
                 <p>
-                    Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows,
-                    <br>and on the strength of that one show they decide if they're going to make more shows. Some pilots get picked and become television programs.
-                    <br>Some don't, become nothing. She starred in one of the ones that became nothing.
+                    Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows. Some pilots get picked and become television programs. Some don't, become nothing. She starred in one of the ones that became nothing.
                 </p>
             </div>
         </div>
 
         <div class="row mt-5 py-4 bg-light border border-dark rounded">
-            <div class="col-3">
+            <div class="col-md-3">
                 <nav id="sideNav" class="navbar navbar-light bg-light">
-                    <nav class="nav nav-pills flex-column divider">
-                        <a href="#mission" class="nav-link text-dark">Mission</a>
-                        <a href="#vision" class="nav-link text-dark">Vision</a>
-                        <a href="#values" class="nav-link text-dark">Values</a>
-
-                        <!-- <a href="#item4" class="nav-link text-dark">Lorem</a>
+                    <nav class="nav nav-pills flex-column">
+                        <a href="#item4" class="nav-link text-dark active">Lorem</a>
                             <a href="#item4-1" class="nav-link ml-3 text-dark">Ipsum</a>
                             <a href="#item4-2" class="nav-link ml-3 text-dark">Dolor</a>
-                        <a href="#item5" class="nav-link text-dark">Sit Amet</a>
+                        <a href="#item5" class="nav-link text-dark mt-2">Sit Amet</a>
                             <a href="#item5-1" class="nav-link ml-3 text-dark">Consectetur</a>
                             <a href="#item5-2" class="nav-link ml-3 text-dark">Adipiscing</a>
-                            <a href="#item5-3" class="nav-link ml-3 text-dark">Elit</a> -->
+                            <a href="#item5-3" class="nav-link ml-3 text-dark">Elit</a>
                     </nav>
                 </nav>
             </div>
 
-            <div class="col-9">
-                <div data-spy="scroll" data-target="sideNav" data-offset="0" class="scrollspy">
-                    <h3 id="mission">Our Mission</h3>
-                    <p>The first mate and his Skipper too will do their very best to make the others comfortable in their tropic island nest. Michael Knight a young loner on a crusade to champion the cause of the innocent. The helpless. The powerless in a world of criminals who operate above the law. Here he comes Here comes Speed Racer. He's a demon on wheels.</p>
-
-                    <h3 id="vision">Our Vision</h3>
-                    <p>Tell them I hate them. Is the Space Pope reptilian!? Tell her she looks thin. Hello, little man. I will destroy you! I've got to find a way to escape the horrible ravages of youth. Suddenly, I'm going to the bathroom like clockwork, every three hours. And those jerks at Social Security stopped sending me checks. Now 'I' have to pay them'!</p>
-
-                    <h3 id="values">Our Values</h3>
-                    <p>That is the true genius of America - a faith in simple dreams,, an insistence on small miracles. We meet at one of those defining moments - a moment when our nation is at war, our economy is in turmoil, and the American promise has been threatened once more. We did not go by choice, we went because of necessity.</p>
-
-                    <!-- <h3 id="item4">Lorem</h3>
+            <div class="col-md-9">
+                <div data-spy="scroll" data-target="#sideNav" data-offset="0" class="scrollspy">
+                    <h3 id="item4">Lorem</h3>
                     <p>That is the true genius of America - a faith in simple dreams,, an insistence on small miracles. We meet at one of those defining moments - a moment when our nation is at war, our economy is in turmoil, and the American promise has been threatened once more. We did not go by choice, we went because of necessity.</p>
 
                     <h5 id="item4-1">Ipsum</h5>
@@ -177,7 +162,7 @@
                     <p>That is the true genius of America - a faith in simple dreams,, an insistence on small miracles. We meet at one of those defining moments - a moment when our nation is at war, our economy is in turmoil, and the American promise has been threatened once more. We did not go by choice, we went because of necessity.</p>
 
                     <h5 id="item5-3">Elit</h5>
-                    <p>That is the true genius of America - a faith in simple dreams,, an insistence on small miracles. We meet at one of those defining moments - a moment when our nation is at war, our economy is in turmoil, and the American promise has been threatened once more. We did not go by choice, we went because of necessity.</p> -->
+                    <p>That is the true genius of America - a faith in simple dreams,, an insistence on small miracles. We meet at one of those defining moments - a moment when our nation is at war, our economy is in turmoil, and the American promise has been threatened once more. We did not go by choice, we went because of necessity.</p>
                 </div>
             </div>
         </div>
@@ -219,6 +204,74 @@
                     <div class="card-footer">
                         <a href="#" data-toggle="modal" data-target="#modal" class="card-link text-dark">Request a personalized quote</a>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="jumbotron jumbotron-fluid bg-dark text-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="display-4">Know Us</h1>
+                    <p class="lead">Cupcake ipsum dolor. Sit amet marshmallow topping cheesecake muffin.</p>
+                    <hr class="border-light">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <ul class="nav nav-pills justify-content-center mb-4" id="jumboNav" role="tablist">
+                        <li class="nav-item">
+                            <a href="#mission" class="nav-link text-light active" data-toggle="pill" id="jumboNav01">Mission</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#vision" class="nav-link text-light" data-toggle="pill" id="jumboNav02">Vision</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#values" class="nav-link text-light" data-toggle="pill" id="jumboNav03">Values</a>
+                        </li>
+                    </ul>
+
+                        <div class="tab-content" id="jumboTab">
+                            <div class="tab-pane fade show jumbotab active" id="mission" role="tabpanel">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="embed-responsive embed-responsive-16by9">
+                                            <iframe src="https://www.youtube.com/embed/rhLdmiYNquc" class="embed-responsive-item"></iframe>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-6">Just say anything, George, say what ever's natural, the first thing that comes to your mind. Take that you mutated son-of-a-bitch. My pine, why you. You space bastard, you killed a pine. You do? Yeah, it's 8:00. Hey, McFly, I thought I told you never to come in here. Well it's gonna cost you. How much money you got on you?</div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade show jumbotab" id="vision" role="tabpanel">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="embed-responsive embed-responsive-16by9">
+                                            <iframe src="https://www.youtube.com/embed/XUxd6T9HvSQ" class="embed-responsive-item"></iframe>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-6">Alright, I'm ready. Where were we. Marty, you seem so nervous, is something wrong? Oh, no no no, I never uh, I never let anybody read my stories. Of course, from a group of Libyan Nationalists. They wanted me to build them a bomb, so I took their plutonium and in turn gave them a shiny bomb case full of used pinball machine parts.</div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade show jumbotab" id="values" role="tabpanel">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="embed-responsive embed-responsive-16by9">
+                                            <iframe src="https://www.youtube.com/embed/EH2os_x3S5I" class="embed-responsive-item"></iframe>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-6">Lorraine, have you ever, uh, been in a situation where you know you had to act a certain way but when you got there, you didn't know if you could go through with it? Okay, real mature guys. Okay, Biff, will you pick up my books? Good, there's somebody I'd like you to meet. Lorraine. Without any sugar.</div>
+                                </div>
+                            </div>
+                        </div>
                 </div>
             </div>
         </div>
